@@ -1,0 +1,5 @@
+User-Agent: *
+Allow: /
+
+Host: https://kaanklcrsln.github.io
+Sitemap: https://kaanklcrsln.github.io/sitemap.xml
