@@ -1,0 +1,1 @@
+"use strict";exports.id=506,exports.ids=[506],exports.modules={5506:(e,o,s)=>{s.r(o),s.d(o,{CodeBlock:()=>r});let r=(0,s(5347).createProxy)(String.raw`C:\Users\kaank\Desktop\Klasör\BLOG\homepage-main\src\components\contentful\code-block.js#CodeBlock`)}};

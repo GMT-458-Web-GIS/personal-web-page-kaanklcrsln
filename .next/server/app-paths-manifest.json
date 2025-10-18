@@ -1,0 +1,15 @@
+{
+  "/_not-found/page": "app/_not-found/page.js",
+  "/bookmarks.xml/route": "app/bookmarks.xml/route.js",
+  "/robots.txt/route": "app/robots.txt/route.js",
+  "/page": "app/page.js",
+  "/sitemap.xml/route": "app/sitemap.xml/route.js",
+  "/[slug]/page": "app/[slug]/page.js",
+  "/gallery/page": "app/gallery/page.js",
+  "/experience/page": "app/experience/page.js",
+  "/journey/page": "app/journey/page.js",
+  "/workspace/page": "app/workspace/page.js",
+  "/stack/page": "app/stack/page.js",
+  "/bookmarks/page": "app/bookmarks/page.js",
+  "/bookmarks/[slug]/page": "app/bookmarks/[slug]/page.js"
+}

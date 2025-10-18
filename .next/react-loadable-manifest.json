@@ -1,0 +1,19 @@
+{
+  "components\\bookmark-card.js -> @/components/tweet-card/tweet-card": {
+    "id": 6826,
+    "files": [
+      "static/css/8b5a7b9dfcba5c33.css",
+      "static/css/19bc49141d707410.css",
+      "static/css/7bac2c4b7f7a6c98.css",
+      "static/chunks/757-02babba91a8010dd.js",
+      "static/chunks/826.719545c0d310c3ed.js"
+    ]
+  },
+  "components\\floating-header.js -> @/components/mobile-drawer": {
+    "id": 5419,
+    "files": [
+      "static/chunks/528.7c60f048edc06072.js",
+      "static/chunks/419.f137d349d29ddaf3.js"
+    ]
+  }
+}

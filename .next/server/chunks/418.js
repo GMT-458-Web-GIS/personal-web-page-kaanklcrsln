@@ -1,0 +1,1 @@
+"use strict";exports.id=418,exports.ids=[418],exports.modules={9418:(e,s,r)=>{r.r(s),r.d(s,{CarouselCmp:()=>o});let o=(0,r(5347).createProxy)(String.raw`C:\Users\kaank\Desktop\Klasör\BLOG\homepage-main\src\components\contentful\carousel.js#CarouselCmp`)}};
