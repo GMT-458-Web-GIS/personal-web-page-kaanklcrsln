@@ -7,6 +7,7 @@
 > A modern, fast, and scalable personal portfolio built with Next.js.  
 >
 > **AI Assistant Note:** This project utilized GitHub Copilot (Claude Sonnet 4.5 Preview) for development assistance and code generation.
+> If you use this project’s design or code, please provide proper attribution — it is required.
 
 ## Overview
 This project serves as the professional digital portfolio for a Geomatics Engineer. It provides a comprehensive view of my academic background, showcased projects, technical skills, and contact information.
