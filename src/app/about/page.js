@@ -9,9 +9,7 @@ import { useState, useEffect, useRef } from 'react'
 
 export default function About() {
   const [textVisible, setTextVisible] = useState([false, false, false])
-  const [photosVisible, setPhotosVisible] = useState([false, false, false])
   const aboutRef = useRef()
-  const photosRef = useRef()
 
   // Intersection Observer for text animations
   useEffect(() => {
@@ -36,34 +34,6 @@ export default function About() {
 
     if (aboutRef.current) {
       observer.observe(aboutRef.current)
-    }
-
-    return () => observer.disconnect()
-  }, [])
-
-  // Intersection Observer for photo animations
-  useEffect(() => {
-    let hasTriggered = false
-
-    const observer = new IntersectionObserver(
-      (entries) => {
-        entries.forEach((entry) => {
-          if (entry.isIntersecting && !hasTriggered) {
-            hasTriggered = true
-            // Photos slide up with staggered delay
-            setTimeout(() => setPhotosVisible([true, false, false]), 100)
-            setTimeout(() => setPhotosVisible([true, true, false]), 300)
-            setTimeout(() => setPhotosVisible([true, true, true]), 500)
-            // Unobserve after triggering to prevent re-triggering
-            observer.unobserve(photosRef.current)
-          }
-        })
-      },
-      { threshold: 0.3 }
-    )
-
-    if (photosRef.current) {
-      observer.observe(photosRef.current)
     }
 
     return () => observer.disconnect()
@@ -95,31 +65,6 @@ export default function About() {
             }`}>
               Additionally, I gained experience as a Web Designer at İTÜ Blockchain, and I actively contribute to my department's community, KOBIT, as a Design Creator. These voluntary experiences have strengthened my collaborative mindset, enhanced my creativity, and helped me develop new perspectives while working with diverse groups of people.
             </p>
-          </div>
-
-          {/* Photo Grid - 3:4 aspect ratio */}
-          <div ref={photosRef} className="mb-8 grid grid-cols-3 gap-4">
-            <img 
-              src="/assets/pc.avif" 
-              alt="PC Setup" 
-              className={`w-full aspect-[3/4] object-cover rounded-lg transition-all duration-700 ${
-                photosVisible[0] ? 'translate-y-0 opacity-100' : 'translate-y-8 opacity-0'
-              }`}
-            />
-            <img 
-              src="/assets/photo.avif" 
-              alt="Photography" 
-              className={`w-full aspect-[3/4] object-cover rounded-lg transition-all duration-700 ${
-                photosVisible[1] ? 'translate-y-0 opacity-100' : 'translate-y-8 opacity-0'
-              }`}
-            />
-            <img 
-              src="/assets/event.avif" 
-              alt="Event" 
-              className={`w-full aspect-[3/4] object-cover rounded-lg transition-all duration-700 ${
-                photosVisible[2] ? 'translate-y-0 opacity-100' : 'translate-y-8 opacity-0'
-              }`}
-            />
           </div>
 
           <div className="lg:hidden">
