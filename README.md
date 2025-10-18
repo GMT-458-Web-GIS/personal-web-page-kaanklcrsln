@@ -1,6 +1,9 @@
-# [kaanklcrsln.github.io](https://kaanklcrsln.github.io)
-
 > **The Digital Portfolio of a Geomatics Engineer**  
+
+**Project Link:** [https://kaanklcrsln.github.io](https://kaanklcrsln.github.io)
+
+<img width="1570" height="1189" alt="imagess" src="https://github.com/user-attachments/assets/56c6d361-c856-4d74-a32e-04ab5bfcd381" />
+
 > A modern, fast, and scalable personal portfolio built with Next.js.  
 >
 > **AI Assistant Note:** This project utilized GitHub Copilot (Claude Sonnet 4.5 Preview) for development assistance and code generation.
@@ -29,7 +32,7 @@ The core design philosophy focuses on delivering a clean, modern, and highly res
 
 ---
 
-**Project Link:** [https://kaanklcrsln.github.io](https://kaanklcrsln.github.io)
+
 
 ## Development Note
 This project was created locally on September 15, 2025.
@@ -40,4 +43,4 @@ Most of the original implementation is written primarily in **JavaScript** and s
 ---
 
 **Author:** Kaan Kılıçarslan  
-🌐 [kaanklcrsln.github.io](https://kaanklcrsln.github.io)
+
