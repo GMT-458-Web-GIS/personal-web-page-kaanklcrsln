@@ -36,7 +36,7 @@ The core design philosophy focuses on delivering a clean, modern, and highly res
 
 
 ## Development Note
-This project was created locally on September 15, 2025.
+This project was created locally on September 15 , 2025.
 The full and unminified source code of this project exists locally on my computer.  
 The version deployed to GitHub Pages is minified through Next.js build optimization.  
 Most of the original implementation is written primarily in **JavaScript** and structured for maintainability and readability before the production build process.
