@@ -44,5 +44,5 @@ The core design philosophy focuses on delivering a clean, modern, and highly res
 
 ---
 
-**Author:** Kaan Kılıçarslan  
+Tysm for your attention 😊🦍
 
